@@ -12,4 +12,4 @@ ARG lodestone_version
 
 WORKDIR /usr/share/nginx/html
 
-COPY $path/out/ ./
+COPY $path ./
